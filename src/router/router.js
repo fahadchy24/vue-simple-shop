@@ -5,7 +5,7 @@ import { compileScript } from "vue/compiler-sfc"
 
 const routes = [
     { path: "/", component: ProductList },
-    { path: "/product/:id", component: ProductDetails }
+    { path: "/product/:id", component: ProductDetails, name: 'product' }
 ]
 
 const router = createRouter({
