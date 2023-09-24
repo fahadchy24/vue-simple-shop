@@ -12,6 +12,9 @@ onBeforeMount(() => {
 </script>
 
 <template>
+    <div class="bg-black border-b-light-100 border-b h-20 text-white items-center justify-center flex p-5 text-2xl">All
+        Products
+    </div>
     <div class="flex flex-row flex-wrap justify-center items-center">
         <template v-for="product in products" :key="product.id">
             <div

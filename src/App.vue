@@ -1,8 +1,6 @@
 <script setup></script>
 
 <template>
-  <header class="bg-black border-b-light-100 border-b h-20 text-white items-center justify-center flex p-5 text-2xl">All Products
-  </header>
   <section class="flex">
     <main class="w-full min-h-screen p-5">
       <router-view></router-view>
